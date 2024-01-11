@@ -1,0 +1,21 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 'body-background, body-color, heading_color' 0.3s ease-in-out;
+}
+
+:root {
+  --body-background: #101010;
+  --body-color: #fff;
+  --heading_color: #ffe400
+}
+
+[data-theme='light'] {
+  --body-background: #fff;
+  --body-color: #000;
+  --heading-color: #1b1b1b;
+}
+

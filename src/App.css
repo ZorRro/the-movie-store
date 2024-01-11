@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-template-rows: 150px auto;
+  background-color: var(--body-background);
+  color: var(--body-color)
+}
+
+.position-center {
+  display: flex;
+  align-items: center;
+}
+
+.movie-viewership-category {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 25px;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.viewership-category-icon {
+  width: 28px;
+  height: 28px;
+  margin-left: 5px;
+}

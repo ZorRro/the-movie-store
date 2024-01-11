@@ -1,0 +1,10 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.no-movies {
+  justify-content: center;
+  min-height: 200px;
+}
